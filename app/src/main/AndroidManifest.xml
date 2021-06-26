@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Layout">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="sensor"> <!--Orientação da tela
+            obs: landscape usar para jogos
+                  Portrait usar a tela em modo vertical -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
